@@ -10,11 +10,14 @@ chmod +x unify_endings.py
 ## Usage
 
 ```bash
-unify_endings.py file-path line-ending-dest-platform
+unify_endings.py file-path dest-platform
 ```
+
+Destiny platform line ending can recive the following values: unix, windows, mac.
 
 ## Example 
 
 ```bash
 unify_endings.py ~/Downloads/mycsvfile.csv unix
 ```
+
